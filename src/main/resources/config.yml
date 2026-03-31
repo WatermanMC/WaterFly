@@ -1,0 +1,30 @@
+# WaterFly - Feature rich fly plugin for your server!
+# GitHub Source code: https://github.com/WatermanMC/Waterfly
+# Support: https://discord.gg/Scgqfm5EU4
+
+
+# Should the plugin remove player's fly when changing worlds/quit?
+# Will reset fly speed too.
+# Will cause player to fall when relogging.
+remove-fly:
+  quit: false
+  world-change: false
+  affect-creative-spectators: false
+
+
+# Disable fly in this world
+# Bypass permission: waterfly.bypass.world-restriction
+disabled-worlds:
+  - "example_world"
+
+# Default fly speeds
+default-fly-speeds:
+  # The speed when you're flying normally without sprinting
+  # Vanilla default: 0.1 (Approx. 10.8 blocks per second)
+  # Scale: 0.0 to 1.0 (NOTE: Values above 0.8 might cause player lag)
+  normal: 0.1
+
+  # The speed when you're flying and sprinting too
+  # Vanilla default: 0.2 (Approx. 21.6 blocks per second)
+  # Increasing this might trigger your server's anticheat plugins if you have one
+  sprint: 0.2

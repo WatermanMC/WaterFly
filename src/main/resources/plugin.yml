@@ -1,0 +1,34 @@
+name: WaterFly
+version: '1.0.0'
+main: com.github.WatermanMC.WaterFly.WaterFly
+api-version: '1.21'
+authors: [WatermanMC]
+description: Feature rich fly plugin for your server!
+
+commands:
+  waterfly:
+    description: WaterFly admin command
+    usage: /waterfly <info/reload>
+    permission: waterfly.admin
+  fly:
+    description: Toggle flight abilities
+    usage: /fly
+    permission: waterfly.command.fly
+  flyspeed:
+    description: Set your fly speed
+    usage: /flyspeed <1-10>
+    permission: waterfly.command.flyspeed
+
+permissions:
+  waterfly.admin:
+    description: WaterFly admin permission
+    default: op
+  waterfly.command.fly:
+    description: Toggle flight abilities
+    default: false
+  waterfly.command.flyspeed:
+    description: Set your fly speed
+    default: false
+  waterfly.bypass.world-restriction:
+    description: Bypass flight world restriction
+    default: false

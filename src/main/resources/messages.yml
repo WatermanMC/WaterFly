@@ -1,0 +1,17 @@
+# Only uses MiniMessage!
+# MiniMessage formatter: https://webui.advntr.dev
+
+prefix: "<aqua><b>WaterFly</aqua></b><white>:</white> <reset>"
+
+pluginReloaded: "<green>Plugin reloaded!"
+nopermission: "<red>You don't have permission to do that!"
+disabledworld: "<red>Flying is not allowed in this world."
+invalidgamemode-for-fly: "<red>This fly feature is not allowed since you're in {gamemode}!"
+fly:
+  enabled: "<green>Fly enabled!"
+  disabled: "<red>Fly disabled."
+
+flyspeed:
+  invalidinput: "<red>Invalid speed. Must be between 1 and 10!"
+  invalidnumber: "<red>{number} is not a valid number!"
+  set: "<green>Fly speed set to {speed}."
