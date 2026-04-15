@@ -101,9 +101,3 @@ flyspeed:
 
 * **GitHub Repository** (Source Code & Full Documentation): [https://github.com/WatermanMC/WaterFly](https://github.com/WatermanMC/WaterFly)
 * **Discord Support:** [https://discord.gg/Scgqfm5EU4](https://discord.gg/Scgqfm5EU4)
-
----
-
-This plugin is also owned by **VOXELWARE STUDIOS**.
-
----
